@@ -9,17 +9,21 @@
         {
             "name": "Ben Waine",
             "homepage": "http://ben-waine.co.uk"
+        },
+        {
+            "name": "Wojtek Oledzki",
+            "homepage": "http://wojtek.it"
         }
     ],
     "require": {
         "php":           ">=5.3",
-        "doctrine/dbal": ">=2.0@stable",
         "behat/gherkin": ">=2@stable"
     },
     "require-dev": {
-        "mockery/mockery": ">=0.7@stable"
+        "mockery/mockery": ">=0.7@stable",
+        "doctrine/dbal": ">=2.0@stable"
     },
     "autoload": {
-        "psr-0": { "Phabric\\": "lib/" }
+        "psr-0": { "Phabric\\Phabric\\": "src/" }
     }
 }

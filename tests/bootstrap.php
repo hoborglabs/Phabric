@@ -9,13 +9,4 @@
 
 date_default_timezone_set('UTC');
 
-// include proper autoloader
-if (file_exists(__DIR__ . '/autoloader.php'))
-{
-    require_once 'autoloader.php';
-}
-else if (file_exists(__DIR__ . '/autoloader.dist.php'))
-{
-    require_once 'autoloader.dist.php';
-}
-
+require_once __DIR__ . "/../vendor/autoload.php";
