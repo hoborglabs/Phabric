@@ -1,5 +1,5 @@
 {
-    "name": "benwaine/phabric",
+    "name": "phabric/phabric",
     "type": "library",
     "description": "A DB mockup / fixture creation library for Behat",
     "keywords": ["behat", "doctrine", "fixtures", "mockups"],
